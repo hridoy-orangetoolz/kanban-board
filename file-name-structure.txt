@@ -1,0 +1,7 @@
+1. Folder name will be camelcase. (starts with small letter)
+2. Component name will be PascalCase with the extension.tsx (starts with Capital Letter)
+3. Normal JavaScript file name will be PascalCase with the extension.js
+4. CSS and SCSS files name start will small leter and has a "-" among words.
+5. Using keyword props.propName instead of distructuring simply propName
+   because it's easy to understand which is came from another components
+   that makes the code more readable.

@@ -1,0 +1,14 @@
+// Using Google Font's Robotoas a free alternative to Helvetica Neue
+@import url("https://fonts.googleapis.com/css?family=Roboto:400,900");
+
+@font-face {
+  font-family: "Free Sans";
+  src: url("../../fonts/FreeSans.otf") format("opentype"),
+    url("../../fonts/FreeSans.ttf") format("truetype");
+}
+
+@font-face {
+  font-family: "Free Sans Bold";
+  src: url("../../fonts/FreeSansBold.otf") format("opentype"),
+    url("../../fonts/FreeSansBold.ttf") format("truetype");
+}

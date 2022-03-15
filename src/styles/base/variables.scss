@@ -1,0 +1,54 @@
+/* Pixels to root element's conversion */
+@function rem($px) {
+  @return #{$px / 16}rem;
+}
+
+/* Color */
+$colors: (
+  "black": #000,
+  "white": #fff,
+  "white_100": #ffeee4,
+  "white_200": #ffd7bf,
+  "orange": #ff6810,
+  "gray_100": #f9fafb,
+  "gray_200": #ebf0f3,
+  "gray_300": #5a6872,
+  "gray_400": #363f45,
+  "gray_500": #192024,
+  "gray_600": #b3b1b0,
+  "gray_for_box_shadow": rgb(214, 213, 213),
+);
+
+/* Font Sizes */
+$font_sizes: (
+  "extra_small": rem(10),
+  "extra_small_2": rem(12),
+  "small": rem(14),
+  "medium": rem(16),
+  "medium_2": rem(17),
+  "medium_3": rem(18),
+  "large": rem(44),
+);
+
+/* Spacing Sizes */
+$spacing: (
+  8: rem(8),
+  10: rem(10),
+  12: rem(12),
+  16: rem(16),
+  18: rem(18),
+  19: rem(19),
+  20: rem(20),
+  24: rem(24),
+  30: rem(30),
+  32: rem(32),
+  56: rem(56),
+  68: rem(68),
+  72: rem(72),
+  100: rem(100),
+  150: rem(150),
+  200: rem(200),
+  240: rem(240),
+  300: rem(300),
+  1400: rem(1400),
+);

@@ -1,0 +1,15 @@
+@function get($map, $key) {
+  @return map-get($map, $key);
+}
+
+@function color($value) {
+  @return get($colors, $value);
+}
+
+@function size($value) {
+  @return get($font-sizes, $value);
+}
+
+@function spacing($value) {
+  @return get($spacing, $value);
+}
